@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="sign-up">
+        <div class="container">
+            <form action="" class="form" method="POST">
+                <div class="form-title title">Регистрация</div>
+                <div class="form-subtitle subtitle">введите необходимые данные для получения статуса беженца</div>
+                
+                <div class="form__rows">
+                    <div class="form__row-item">
+                        <label for="login" class="form-label text">имя</label>
+                        <input type="text" name="first_name" class="form-input text input">
+                    </div>
+
+                    <div class="form__row-item">
+                        <label for="login" class="form-label text">фамилия</label>
+                        <input type="text" name="last_name" class="form-input text input">
+                    </div>
+
+                    <div class="form__row-item">
+                        <label for="date_birth" class="form-label text">дата рождения</label>
+                        <input type="date" name="date_birth" class="form-input text input">
+                    </div>
+
+                    <div class="form__row-item">
+                        <label for="country" class="form-label text">страна проживания</label>
+                        <select name="country" class="form-input text input">
+                            <option>Швеция</option>
+                            <option>Ирландия</option>
+                            <option>Исландия</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row-item">
+                        <label for="gender" class="form-label text">пол</label>
+                        <select name="gender" class="form-input text input">
+                            <option>Мужской</option>
+                            <option>Женский</option>
+                        </select>
+                    </div>
+
+                    <div class="form__row-item">
+                        <label for="password" class="form-label text">пароль</label>
+                        <input type="password" name="password" class="form-input text input">
+                    </div>
+                </div>
+                
+                <input type="submit" class="form-button button" value="Зарегистрироваться">
+            
+                <div class="form-subtitle subtitle">
+                    Уже есть личный кабинет? 
+                    <a href="login.html" class="form-link link">Войдите</a>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
